@@ -1,0 +1,203 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  header.wrapHead {
+    height: 300px; }
+    header.wrapHead .logoHead img {
+      padding: 40px 0 20px 40%; }
+    header.wrapHead .logoHead ul li {
+      font-size: 17px; }
+    header.wrapHead .sliderHead .mnuHead #headMenuClose {
+      font-size: 44px; }
+    header.wrapHead .sliderHead .wrapM {
+      height: 50px;
+      top: 0;
+      line-height: 0.3; }
+      header.wrapHead .sliderHead .wrapM i {
+        font-size: 45px; }
+      header.wrapHead .sliderHead .wrapM #EN {
+        font-size: 35px; }
+      header.wrapHead .sliderHead .wrapM #RU {
+        font-size: 35px; }
+    header.wrapHead .sliderHead .textHead {
+      font-size: 15px; }
+    header.wrapHead .sliderHead .captionHead {
+      text-align: center; }
+      header.wrapHead .sliderHead .captionHead .wrapperHeadCaption {
+        float: none;
+        padding: 0 10px; }
+        header.wrapHead .sliderHead .captionHead .wrapperHeadCaption h2 {
+          font-size: 60px; }
+    header.wrapHead .sliderHead .arrowSlid p {
+      font-size: 27px; }
+  section .headBottom .advantageAll tbody tr td {
+    font-size: 18px; }
+    section .headBottom .advantageAll tbody tr td div {
+      font-size: 55px; }
+  section .aboutOutCompany {
+    padding-top: 30px; }
+    section .aboutOutCompany .wrapperAboutC {
+      width: 90%; }
+      section .aboutOutCompany .wrapperAboutC .captionC {
+        left: 5%;
+        display: block;
+        position: static;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px; }
+        section .aboutOutCompany .wrapperAboutC .captionC h2 {
+          font-size: 30px;
+          margin-left: 0;
+          text-align: center; }
+      section .aboutOutCompany .wrapperAboutC .wordC {
+        display: block;
+        position: static;
+        font-size: 15px;
+        text-align: justify;
+        padding-top: 25px; }
+      section .aboutOutCompany .wrapperAboutC .imgC {
+        display: block;
+        position: static;
+        float: right; }
+    section .aboutOutCompany p.aboutUs {
+      display: none; }
+  section.productsAndSolution .logoSect2 {
+    text-align: left; }
+    section.productsAndSolution .logoSect2 .captionSect2 .wrapperSect2Caption h2 {
+      font-size: 30px;
+      margin-left: 0; }
+    section.productsAndSolution .logoSect2 .descriptionSect2 {
+      font-size: 13px; }
+  section.productsAndSolution .whiteListSect2 ul li p {
+    font-size: 12px; }
+  section.productsAndSolution .whiteListSect2 ul li .imgWhiteList {
+    display: none; }
+  footer {
+    width: 100%; }
+    footer div.footDivLogo {
+      width: 100%;
+      float: none;
+      position: relative;
+      -webkit-background-size: cover;
+              background-size: cover;
+      height: 140px; }
+      footer div.footDivLogo img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: 0 auto;
+        margin-top: -50px;
+        margin-left: -71px; }
+    footer .footDivList {
+      width: 100%; }
+      footer .footDivList .linkFooter {
+        padding: 30px; }
+      footer .footDivList .contactsFooter {
+        padding: 40px 30px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  header .maskHead {
+    display: none; }
+  header .logoHead {
+    display: none; }
+  header .sliderHead .textHead {
+    font-size: 17px;
+    float: none;
+    margin: auto;
+    text-align: center; }
+  header .sliderHead button.seniorBut {
+    float: none;
+    width: 80%;
+    margin: 30px auto;
+    margin-left: 10%; }
+  header .sliderHead .arrowSlid {
+    position: static;
+    text-align: center; }
+  header .sliderHead .captionHead .wrapperHeadCaption {
+    float: none; }
+    header .sliderHead .captionHead .wrapperHeadCaption h2 {
+      margin-left: 0; }
+  header #buttonOpenLogoHead {
+    display: block; }
+  header .sliderHead {
+    width: 100%; }
+  section.productsAndSolution {
+    width: 100%;
+    height: 550px;
+    position: relative; }
+    section.productsAndSolution .logoSect2 {
+      position: relative;
+      z-index: 3;
+      text-align: center;
+      width: 100%;
+      height: 100%; }
+      section.productsAndSolution .logoSect2 button.seniorBut {
+        margin: 0;
+        width: 80%; }
+      section.productsAndSolution .logoSect2 .captionSect2 {
+        margin: auto;
+        display: inline-block;
+        width: 100%; }
+        section.productsAndSolution .logoSect2 .captionSect2 .wrapperSect2Caption {
+          padding: 0; }
+          section.productsAndSolution .logoSect2 .captionSect2 .wrapperSect2Caption h2 {
+            font-size: 50px;
+            text-align: center;
+            margin-left: 0; }
+      section.productsAndSolution .logoSect2 .descriptionSect2 {
+        display: inline-block;
+        width: 80%;
+        text-align: center;
+        font-size: 16px; }
+        section.productsAndSolution .logoSect2 .descriptionSect2 div {
+          display: none; }
+    section.productsAndSolution .aboutUs.aboutUsAkselerFoot {
+      display: none; }
+    section.productsAndSolution .whiteListSect2 {
+      display: none; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /*Disable Animation on Mobile Devices*/
+  .animated {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    animation: none !important; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  /**/ }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
